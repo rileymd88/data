@@ -1,0 +1,14 @@
+{
+    "Functions" : [
+        {
+            "Id" : 0,
+            "Name" : "Sentiment",
+            "Type" : 2,
+            "ReturnType": 0,
+            "Params" : {
+                "sentence_id" : 0, 
+                "sentence" : 0
+                }
+        }
+    ]
+}

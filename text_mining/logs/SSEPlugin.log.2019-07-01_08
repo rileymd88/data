@@ -1,0 +1,36 @@
+2019-07-01 08:46:36,312 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 08:46:36,322 - INFO - __main__ : 294 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 08:48:05,220 - INFO - __main__ : 196 - GetCapabilities
+2019-07-01 08:48:05,221 - INFO - __main__ : 219 - Adding to capabilities: Wordcount(['sentence', 'sentence_id'])
+2019-07-01 08:48:05,221 - INFO - __main__ : 219 - Adding to capabilities: Sentiment(['sentence', 'sentence_id'])
+2019-07-01 08:50:35,215 - INFO - __main__ : 234 - ExecuteFunction (functionId: 1)
+2019-07-01 08:50:35,323 - ERROR - _server : 462 - Exception iterating responses: {'neg': 0.391, 'neu': 0.609, 'pos': 0.0, 'compound': -0.5423} has type dict, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 118, in _sentiment
+    dualsList.append([SSE.Dual(strData=d) if type(d) is str else SSE.Dual(numData=d) for d in tmpList])
+  File "__main__.py", line 118, in <listcomp>
+    dualsList.append([SSE.Dual(strData=d) if type(d) is str else SSE.Dual(numData=d) for d in tmpList])
+TypeError: {'neg': 0.391, 'neu': 0.609, 'pos': 0.0, 'compound': -0.5423} has type dict, but expected one of: int, long, float
+2019-07-01 08:50:35,327 - INFO - __main__ : 234 - ExecuteFunction (functionId: 1)
+2019-07-01 08:50:35,461 - ERROR - _server : 462 - Exception iterating responses: {'neg': 0.391, 'neu': 0.609, 'pos': 0.0, 'compound': -0.5423} has type dict, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 118, in _sentiment
+    dualsList.append([SSE.Dual(strData=d) if type(d) is str else SSE.Dual(numData=d) for d in tmpList])
+  File "__main__.py", line 118, in <listcomp>
+    dualsList.append([SSE.Dual(strData=d) if type(d) is str else SSE.Dual(numData=d) for d in tmpList])
+TypeError: {'neg': 0.391, 'neu': 0.609, 'pos': 0.0, 'compound': -0.5423} has type dict, but expected one of: int, long, float
+2019-07-01 08:53:21,265 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 08:53:21,270 - INFO - __main__ : 295 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 08:53:28,102 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 08:56:13,926 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 08:57:58,205 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 09:03:30,737 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 09:03:45,398 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 09:06:32,232 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 09:11:38,407 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 09:14:28,659 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 09:19:08,215 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)

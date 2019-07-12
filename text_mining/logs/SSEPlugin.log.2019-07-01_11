@@ -1,0 +1,141 @@
+2019-07-01 10:22:59,860 - INFO - __main__ : 235 - ExecuteFunction (functionId: 1)
+2019-07-01 10:27:25,173 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 10:27:25,182 - INFO - __main__ : 296 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 10:27:46,774 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 10:32:01,990 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 10:50:33,698 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:01:03,009 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:01:25,238 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:14:21,749 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:17:25,209 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:18:57,640 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:19:51,520 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:19:51,536 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 110, in _sentiment
+    # get columns
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:19:51,539 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:19:51,553 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 110, in _sentiment
+    # get columns
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:20:20,205 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:20:20,219 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 110, in _sentiment
+    # get columns
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:20:20,221 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:20:20,235 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 110, in _sentiment
+    # get columns
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:22:13,856 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:22:13,870 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 110, in _sentiment
+    # get columns
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:22:13,872 - INFO - __main__ : 236 - ExecuteFunction (functionId: 1)
+2019-07-01 11:22:13,893 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 110, in _sentiment
+    # get columns
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:22:33,285 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 11:22:33,290 - INFO - __main__ : 293 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:22:38,377 - INFO - __main__ : 233 - ExecuteFunction (functionId: 1)
+2019-07-01 11:22:38,404 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 107, in _sentiment
+    df = pd.DataFrame({'sentence_id': sentence_ids,'scores': scores})
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:22:38,407 - INFO - __main__ : 233 - ExecuteFunction (functionId: 1)
+2019-07-01 11:22:38,430 - ERROR - _server : 462 - Exception iterating responses: local variable 'sentence_ids' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 107, in _sentiment
+    df = pd.DataFrame({'sentence_id': sentence_ids,'scores': scores})
+UnboundLocalError: local variable 'sentence_ids' referenced before assignment
+2019-07-01 11:24:31,703 - INFO - __main__ : 233 - ExecuteFunction (functionId: 1)
+2019-07-01 11:30:22,050 - INFO - __main__ : 233 - ExecuteFunction (functionId: 1)
+2019-07-01 11:36:17,413 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 11:36:17,417 - INFO - __main__ : 225 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:36:28,505 - INFO - __main__ : 165 - ExecuteFunction (functionId: 1)
+2019-07-01 11:36:28,506 - ERROR - _server : 444 - Exception calling application: 1
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 434, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "__main__.py", line 167, in ExecuteFunction
+    return getattr(self, self.functions[func_id])(request_iterator, context)
+KeyError: 1
+2019-07-01 11:36:28,509 - INFO - __main__ : 165 - ExecuteFunction (functionId: 1)
+2019-07-01 11:36:28,510 - ERROR - _server : 444 - Exception calling application: 1
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 434, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+  File "__main__.py", line 167, in ExecuteFunction
+    return getattr(self, self.functions[func_id])(request_iterator, context)
+KeyError: 1
+2019-07-01 11:36:52,069 - INFO - __main__ : 127 - GetCapabilities
+2019-07-01 11:36:52,086 - INFO - __main__ : 150 - Adding to capabilities: Sentiment(['sentence', 'sentence_id'])
+2019-07-01 11:37:42,563 - INFO - __main__ : 165 - ExecuteFunction (functionId: 0)
+2019-07-01 11:37:45,891 - ERROR - _server : 462 - Exception iterating responses: '5866' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 107, in _sentiment
+    dualsList.append([SSE.Dual(numData=d) for d in sentence_ids])
+  File "__main__.py", line 107, in <listcomp>
+    dualsList.append([SSE.Dual(numData=d) for d in sentence_ids])
+TypeError: '5866' has type str, but expected one of: int, long, float
+2019-07-01 11:37:45,894 - INFO - __main__ : 165 - ExecuteFunction (functionId: 0)
+2019-07-01 11:37:49,247 - ERROR - _server : 462 - Exception iterating responses: '5866' has type str, but expected one of: int, long, float
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+  File "__main__.py", line 107, in _sentiment
+    dualsList.append([SSE.Dual(numData=d) for d in sentence_ids])
+  File "__main__.py", line 107, in <listcomp>
+    dualsList.append([SSE.Dual(numData=d) for d in sentence_ids])
+TypeError: '5866' has type str, but expected one of: int, long, float
+2019-07-01 11:39:17,205 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 11:39:17,210 - INFO - __main__ : 225 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:39:22,370 - INFO - __main__ : 165 - ExecuteFunction (functionId: 0)
+2019-07-01 11:40:35,643 - INFO - __main__ : 44 - Logging enabled
+2019-07-01 11:40:35,649 - INFO - __main__ : 232 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:40:46,528 - INFO - __main__ : 172 - ExecuteFunction (functionId: 0)
+2019-07-01 11:42:29,524 - INFO - __main__ : 45 - Logging enabled
+2019-07-01 11:42:29,529 - INFO - __main__ : 233 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:42:33,716 - INFO - __main__ : 173 - ExecuteFunction (functionId: 0)
+2019-07-01 11:43:14,461 - INFO - __main__ : 45 - Logging enabled
+2019-07-01 11:43:14,465 - INFO - __main__ : 234 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:43:17,291 - INFO - __main__ : 174 - ExecuteFunction (functionId: 0)
+2019-07-01 11:48:50,100 - INFO - __main__ : 45 - Logging enabled
+2019-07-01 11:48:50,104 - INFO - __main__ : 227 - *** Running server in insecure mode on port: 50111 ***
+2019-07-01 11:49:09,535 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:00:56,522 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:01:42,304 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:12:41,432 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:14:49,497 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:19:38,498 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:20:00,794 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)
+2019-07-01 12:20:21,629 - INFO - __main__ : 167 - ExecuteFunction (functionId: 0)

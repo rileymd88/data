@@ -1,0 +1,24 @@
+2019-07-04 16:10:59,716 - INFO - __main__ : 45 - Logging enabled
+2019-07-04 16:10:59,726 - INFO - __main__ : 229 - *** Running server in insecure mode on port: 50111 ***
+2019-07-04 16:12:46,472 - INFO - __main__ : 45 - Logging enabled
+2019-07-04 16:12:46,477 - INFO - __main__ : 229 - *** Running server in insecure mode on port: 50111 ***
+2019-07-04 16:13:10,976 - INFO - __main__ : 131 - GetCapabilities
+2019-07-04 16:13:10,979 - INFO - __main__ : 154 - Adding to capabilities: Sentiment(['sentence', 'sentence_id'])
+2019-07-04 16:15:11,488 - INFO - __main__ : 45 - Logging enabled
+2019-07-04 16:15:11,494 - INFO - __main__ : 229 - *** Running server in insecure mode on port: 50111 ***
+2019-07-04 16:15:16,104 - INFO - __main__ : 169 - ExecuteFunction (functionId: 0)
+2019-07-04 16:15:19,677 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-07-04 16:15:19,688 - INFO - __main__ : 169 - ExecuteFunction (functionId: 0)
+2019-07-04 16:15:23,342 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\text_mining\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-07-04 16:18:33,592 - INFO - __main__ : 45 - Logging enabled
+2019-07-04 16:18:33,597 - INFO - __main__ : 229 - *** Running server in insecure mode on port: 50111 ***
+2019-07-04 16:18:39,288 - INFO - __main__ : 169 - ExecuteFunction (functionId: 0)
+2019-07-04 16:20:34,698 - INFO - __main__ : 169 - ExecuteFunction (functionId: 0)

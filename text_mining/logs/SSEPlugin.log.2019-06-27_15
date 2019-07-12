@@ -1,0 +1,44 @@
+2019-06-27 15:26:22,395 - INFO - __main__ : 43 - Logging enabled
+2019-06-27 15:26:22,404 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50111 ***
+2019-06-27 15:26:37,460 - INFO - __main__ : 147 - GetCapabilities
+2019-06-27 15:26:37,461 - INFO - __main__ : 170 - Adding to capabilities: wordcount(['sentence', 'sentence_id'])
+2019-06-27 15:29:30,532 - INFO - __main__ : 43 - Logging enabled
+2019-06-27 15:29:30,537 - INFO - __main__ : 245 - *** Running server in insecure mode on port: 50111 ***
+2019-06-27 15:29:42,598 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2019-06-27 15:29:42,608 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\wordcloud\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-06-27 15:29:42,611 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2019-06-27 15:29:42,620 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\wordcloud\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-06-27 15:30:00,657 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2019-06-27 15:30:00,670 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\wordcloud\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-06-27 15:30:00,672 - INFO - __main__ : 185 - ExecuteFunction (functionId: 0)
+2019-06-27 15:30:00,685 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\wordcloud\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-06-27 15:44:26,719 - INFO - __main__ : 43 - Logging enabled
+2019-06-27 15:44:26,724 - INFO - __main__ : 246 - *** Running server in insecure mode on port: 50111 ***
+2019-06-27 15:44:37,907 - INFO - __main__ : 186 - ExecuteFunction (functionId: 0)
+2019-06-27 15:44:37,920 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\wordcloud\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
+2019-06-27 15:44:37,922 - INFO - __main__ : 186 - ExecuteFunction (functionId: 0)
+2019-06-27 15:44:37,931 - ERROR - _server : 462 - Exception iterating responses: 'NoneType' object is not an iterator
+Traceback (most recent call last):
+  File "C:\Users\ckg\Envs\wordcloud\lib\site-packages\grpc\_server.py", line 452, in _take_response_from_response_iterator
+    return next(response_iterator), True
+TypeError: 'NoneType' object is not an iterator
